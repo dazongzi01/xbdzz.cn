@@ -41,30 +41,32 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '系统简介',
             items: [
-              { text: '快速上手', link: '/pages/174c99/' },
-              { text: 'WEB PC 管理端思维脑图', link: '/pages/832e53/' },
-              { text: '移动端商城功能图', link: '/pages/df0fa3/' },
-              { text: 'Docker 快速预览', link: '/pages/bbeb19/' }
+              { text: '快速上手', link: '/pages/crmebkuaisuliaojie/' },
+              { text: 'WEB PC 管理端思维脑图', link: '/WEBPC-naotu/' },
+              { text: '移动端商城功能图', link: '/pages/crmeb-java-app-naotu/' },
+              { text: 'Docker 快速预览', link: '/pages/runing-docker/' }
             ],
           },
-          // {
-          //   text: '安装教程',
-          //   items: [
-          //     // { text: '快速上手', link: '/pages/174c99/' },
-          //     // { text: 'WEB PC 管理端思维脑图', link: '/pages/832e53/' },
-          //     // { text: '移动端商城功能图', link: '/pages/df0fa3/' },
-          //     // { text: 'Docker 快速预览', link: '/pages/bbeb19/' }
-          //   ],
-          // },
-          // {
-          //   text: '操作说明',
-          //   items: [
-          //     // { text: '快速上手', link: '/pages/174c99/' },
-          //     // { text: 'WEB PC 管理端思维脑图', link: '/pages/832e53/' },
-          //     // { text: '移动端商城功能图', link: '/pages/df0fa3/' },
-          //     // { text: 'Docker 快速预览', link: '/pages/bbeb19/' }
-          //   ],
-          // },
+          {
+            text: '安装教程及服务器',
+            items: [
+              { text: '2.0本地开发环境搭建', link: '/pages/crmeb-2.0-local-dev/' },
+              { text: '2.0之前本地开发环境搭建', link: '/pages/2.0-befor-local-dev/' },
+              { text: '服务器购买&设置', link: '/pages/service-config/' },
+              { text: '域名&解析', link: '/pages/yumingjiexi/' },
+              { text: 'SSL证书申请&设置', link: '/pages/ssl-zhengshushezhi/' },
+            ],
+          },
+          {
+            text: '服务端部署',
+            items: [
+              { text: '部署前辅助服务', link: '/pages/bushuqianfuzhu/' },
+              { text: '宝塔中配置数据库和站点', link: '/pages/mysql-redis-in-bt/' },
+              { text: '打包java项目jar并启动', link: '/pages/java-build-run/' },
+              { text: 'WEB PC管理端打包', link: '/pages/webpc-build/' },
+              { text: 'H5商城打包及部署', link: '/pages/crmeb-h5-build/' }
+            ],
+          },
           // {
           //   text: '常见问题',
           //   items: [
@@ -182,7 +184,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://gitee.com/stivepeim/img4mk/raw/master/202203241445545.png',
+      avatar: 'https://cdn.jsdelivr.net/gh/xbdazz/mypic/img/202203241445545.png',
       name: ' 大粽子',
       slogan: 'Web 全栈实践者',
     },
