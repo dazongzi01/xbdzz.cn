@@ -58,13 +58,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
-            text: '服务端部署',
+            text: '服务端部署&设置',
             items: [
               { text: '部署前辅助服务', link: '/pages/bushuqianfuzhu/' },
               { text: '宝塔中配置数据库和站点', link: '/pages/mysql-redis-in-bt/' },
               { text: '打包java项目jar并启动', link: '/pages/java-build-run/' },
               { text: 'WEB PC管理端打包', link: '/pages/webpc-build/' },
-              { text: 'H5商城打包及部署', link: '/pages/crmeb-h5-build/' }
+              { text: 'H5商城打包及部署', link: '/pages/crmeb-h5-build/' },
+              { text: '公众号配置', link: '/pages/crmeb-java-wx-gongzhonghaopeizhi/' },
+              { text: '小程序配置', link: '/pages/wx-mp-baseconfig/' },
             ],
           },
           // {
