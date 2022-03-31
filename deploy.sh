@@ -10,21 +10,21 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'b.xugaoyi.com' > CNAME
+# echo 'b.xugaoyi.com' > CNAME
 
-if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
-  githubUrl=git@github.com:xugaoyi/vuepress-theme-vdoing.git
-else
-  msg='来自github actions的自动部署'
-  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
-  git config --global user.name "xugaoyi"
-  git config --global user.email "894072666@qq.com"
-fi
-git init
-git add -A
-git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
+# if [ -z "$GITHUB_TOKEN" ]; then
+#   msg='deploy'
+#   githubUrl=git@github.com:xugaoyi/vuepress-theme-vdoing.git
+# else
+#   msg='来自github actions的自动部署'
+#   githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
+#   git config --global user.name "xugaoyi"
+#   git config --global user.email "894072666@qq.com"
+# fi
+# git init
+# git add -A
+# git commit -m "${msg}"
+# git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
 # deploy to coding pages
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
