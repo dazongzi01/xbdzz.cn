@@ -35,38 +35,38 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '电商系统',
             items: [
               // { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-              { text: '序言', link: '/pages/crmebzongshu/' },
+              { text: '序言', link: '/pages/crmeb/crmebzongshu/' },
             ],
           },
           {
             text: '系统简介',
             items: [
-              { text: '快速上手', link: '/pages/crmebkuaisuliaojie/' },
-              { text: 'WEB PC 管理端思维脑图', link: '/WEBPC-naotu/' },
-              { text: '移动端商城功能图', link: '/pages/crmeb-java-app-naotu/' },
-              { text: 'Docker 快速预览', link: '/pages/runing-docker/' }
+              { text: '快速上手', link: '/pages/crmeb/crmebkuaisuliaojie/' },
+              { text: 'WEB PC 管理端思维脑图', link: '/pages/crmeb/WEBPC-naotu/' },
+              { text: '移动端商城功能图', link: '/pages/crmeb/crmeb-java-app-naotu/' },
+              { text: 'Docker 快速预览', link: '/pages/crmeb/runing-docker/' }
             ],
           },
           {
             text: '安装教程及服务器',
             items: [
-              { text: '2.0本地开发环境搭建', link: '/pages/crmeb-2.0-local-dev/' },
-              { text: '2.0之前本地开发环境搭建', link: '/pages/2.0-befor-local-dev/' },
-              { text: '服务器购买&设置', link: '/pages/service-config/' },
-              { text: '域名&解析', link: '/pages/yumingjiexi/' },
-              { text: 'SSL证书申请&设置', link: '/pages/ssl-zhengshushezhi/' },
+              { text: '2.0本地开发环境搭建', link: '/pages/crmeb/crmeb-2.0-local-dev/' },
+              { text: '2.0之前本地开发环境搭建', link: '/pages/crmeb/2.0-befor-local-dev/' },
+              { text: '服务器购买&设置', link: '/pages/crmeb/service-config/' },
+              { text: '域名&解析', link: '/pages/crmeb/yumingjiexi/' },
+              { text: 'SSL证书申请&设置', link: '/pages/crmeb/ssl-zhengshushezhi/' },
             ],
           },
           {
             text: '服务端部署&设置',
             items: [
-              { text: '部署前辅助服务', link: '/pages/bushuqianfuzhu/' },
-              { text: '宝塔中配置数据库和站点', link: '/pages/mysql-redis-in-bt/' },
-              { text: '打包java项目jar并启动', link: '/pages/java-build-run/' },
-              { text: 'WEB PC管理端打包', link: '/pages/webpc-build/' },
-              { text: 'H5商城打包及部署', link: '/pages/crmeb-h5-build/' },
-              { text: '公众号配置', link: '/pages/crmeb-java-wx-gongzhonghaopeizhi/' },
-              { text: '小程序配置', link: '/pages/wx-mp-baseconfig/' },
+              { text: '部署前辅助服务', link: '/pages/crmeb/bushuqianfuzhu/' },
+              { text: '宝塔中配置数据库和站点', link: '/pages/crmeb/mysql-redis-in-bt/' },
+              { text: '打包java项目jar并启动', link: '/pages/crmeb/java-build-run/' },
+              { text: 'WEB PC管理端打包', link: '/pages/crmeb/webpc-build/' },
+              { text: 'H5商城打包及部署', link: '/pages/crmeb/crmeb-h5-build/' },
+              { text: '公众号配置', link: '/pages/crmeb/crmeb-java-wx-gongzhonghaopeizhi/' },
+              { text: '小程序配置', link: '/pages/crmeb/wx-mp-baseconfig/' },
             ],
           },
           // {
