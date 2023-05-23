@@ -8,21 +8,21 @@
 
 - [申请Facebook账号](https://www.facebook.com/ "申请Facebook账号")
 
-![markdown](http://pic.xbdzz.cn/write/202203261652696.png "申请Facebook账号")
+![markdown](../../../images/202203261652696.png "申请Facebook账号")
 
 - [登录Facebook开发者创建应用](https://developers.facebook.com/ "登录Facebook开发者创建应用")
 
-![markdown](http://pic.xbdzz.cn/write/202203261700045.png "登录Facebook开发者创建应用")
+![markdown](../../../images/202203261700045.png "登录Facebook开发者创建应用")
 
-![markdown](http://pic.xbdzz.cn/write/202203261654037.png "登录Facebook开发者创建应用")
+![markdown](../../../images/202203261654037.png "登录Facebook开发者创建应用")
 
-![markdown](http://pic.xbdzz.cn/write/202203261655521.png "登录Facebook开发者创建应用")
+![markdown](../../../images/202203261655521.png "登录Facebook开发者创建应用")
 
 - 获取Facebook应用编号，配置授权域名应用图标
 
-![markdown](http://pic.xbdzz.cn/write/202203261655397.png "获取Facebook应用编号，配置授权域名应用图标")
+![markdown](../../../images/202203261655397.png "获取Facebook应用编号，配置授权域名应用图标")
 
-![markdown](http://pic.xbdzz.cn/write/202203261656847.png "获取Facebook应用编号，配置授权域名应用图标") 
+![markdown](../../../images/202203261656847.png "获取Facebook应用编号，配置授权域名应用图标") 
 
 
 #### 使用方法
